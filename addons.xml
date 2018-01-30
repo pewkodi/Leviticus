@@ -2,7 +2,7 @@
 <addon id="Leviticus" name="Add-on Repository" version="1.0.0" provider-name="PEW">
     <extension point="xbmc.addon.repository" name="NAME Add-on Repository">
         <info>https://github.com/pewolfe/Leviticus/master/addons.xml</info>
-        <checksum>https://github.com/pewolfe/Leviticusmaster/addons.xml.md5</checksum>
+        <checksum>https://github.com/pewolfe/Leviticus/master/addons.xml.md5</checksum>
         <datadir zip="true">https://github.com/pewolfe/Leviticus/master</datadir>
     </extension>
     <extension point="xbmc.addon.metadata">
