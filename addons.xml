@@ -75,7 +75,7 @@
   <extension point="xbmc.addon.repository" name="Chibo Add-ons Repository">
     <info compressed="false">https://github.com/pewolfe/Leviticus/master/addons.xml</info>
     <checksum>https://github.com/pewolfe/Leviticus/master/addons.xml.md5</checksum>
-    <datadir zip="true">https://githu.com/pewolfe/Leviticus/master/</datadir>
+    <datadir zip="true">https://github.com/pewolfe/Leviticus/master/</datadir>
   </extension>
   <extension point="xbmc.addon.metadata">
     <summary>Install ChiBo Add-ons</summary>
