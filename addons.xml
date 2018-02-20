@@ -73,9 +73,9 @@
 </addon>
 <addon id="repository.chibo" name="ChiBo Add-ons" provider-name="ChiBo Add-ons" version="1.0.0">
   <extension point="xbmc.addon.repository" name="Chibo Add-ons Repository">
-    <info compressed="false">https://raw.githubusercontent.com/pewolfe/Leviticus/master/addons.xml</info>
-    <checksum>https://raw.githubusercontent.com/pewolfe/Leviticus/master/addons.xml.md5</checksum>
-    <datadir zip="true">https://raw.githubusercontent.com/pewolfe/Leviticus/master/</datadir>
+    <info compressed="false">https://raw.githubusercontent.com/pewkodi/Leviticus/master/addons.xml</info>
+    <checksum>https://raw.githubusercontent.com/pewkodi/Leviticus/master/addons.xml.md5</checksum>
+    <datadir zip="true">https://raw.githubusercontent.com/pewkodi/Leviticus/master/</datadir>
   </extension>
   <extension point="xbmc.addon.metadata">
     <summary>Install ChiBo Add-ons</summary>
