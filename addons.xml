@@ -61,7 +61,7 @@
 		<platform>all</platform>
 	</extension>
 </addon>
-<addon id="script.module.leviticus" name="Leviticus Module" version="1.0.8" provider-name="Leviticus">
+<addon id="script.module.leviticus" name="Leviticus Module" version="1.0.9" provider-name="Leviticus">
 	<requires>
 		<import addon="xbmc.python" version="2.1.0" />
 	</requires>
