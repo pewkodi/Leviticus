@@ -1,7 +1,7 @@
 <?xml version='1.0' encoding='UTF-8'?>
 <addons>
 <addon id="plugin.video.leviticus" 
-	version="1.2.12" 
+	version="1.2.13" 
 	name="[COLOR khaki]LEVITICUS[/COLOR]" 
 	provider-name="[COLOR khaki]LEVITICUS[/COLOR]">
 	<requires>
@@ -61,7 +61,7 @@
 		<platform>all</platform>
 	</extension>
 </addon>
-<addon id="script.module.leviticus" name="Leviticus Module" version="1.0.13" provider-name="Leviticus">
+<addon id="script.module.leviticus" name="Leviticus Module" version="1.0.14" provider-name="Leviticus">
 	<requires>
 		<import addon="xbmc.python" version="2.1.0" />
 	</requires>
@@ -202,6 +202,25 @@ Kodi is a registered trademark of the XBMC Foundation. We are not connected to o
 	<extension point="xbmc.addon.metadata">
 		<summary>Metadata for the genesisreborn Addon</summary>
 		<description>Metadata for genesisreborn are maintained separately to make distribution of the the addon itself easier/faster.</description>
+		<platform>all</platform>
+	</extension>
+</addon>
+<addon id="repository.exodusredux" name="Exodus Redux Repo" version="0.0.7" provider-name="I-A-C">
+	<extension point="xbmc.addon.repository" name="Exodus Redux Repo">
+	<dir>
+        <info compressed="false">https://raw.githubusercontent.com/I-A-C/zips/master/addons.xml</info>
+        <checksum>https://raw.githubusercontent.com/I-A-C/zips/master/addons.xml.md5</checksum>
+        <datadir zip="true">https://raw.githubusercontent.com/I-A-C/zips/master/</datadir>
+	</dir>
+	<dir>
+		<info compressed="false">https://raw.githubusercontent.com/jsergio123/zips/master/addons.xml</info>
+		<checksum>https://raw.githubusercontent.com/jsergio123/zips/master/addons.xml.md5</checksum>
+		<datadir zip="true">https://raw.githubusercontent.com/jsergio123/zips/master/</datadir>
+	</dir>
+	</extension>
+	<extension point="xbmc.addon.metadata">
+		<summary lang="en">Exodus Redux is a educational add-on. We do not host any of the contents streamed.</summary>
+		<description lang="en"></description>
 		<platform>all</platform>
 	</extension>
 </addon>
