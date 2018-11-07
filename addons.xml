@@ -12,7 +12,6 @@
 		<import addon="script.leviticus.artwork" version="1.0.0" />
 		<import addon="script.leviticus.metadata" version="1.0.0" />
 		<import addon="script.module.urlresolver" version="3.0.0" />
-        <import addon="script.module.lamdascrapers" />
 		<import addon="script.module.requests" />
 		<import addon="script.module.metahandler" version="1.0.0" />
 	</requires>
