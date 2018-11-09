@@ -13,7 +13,7 @@
 		<import addon="script.leviticus.metadata" version="1.0.0" />
 		<import addon="script.module.urlresolver" version="3.0.0" />
 		<import addon="script.module.requests" />
-		<import addon="script.module.lambdascrapers" />
+		<import addon="script.module.lambdascrapers" version="1.6.1" />
 		<import addon="script.module.metahandler" version="1.0.0" />
 	</requires>
 	<extension point="xbmc.python.pluginsource" library="leviticus.py">
