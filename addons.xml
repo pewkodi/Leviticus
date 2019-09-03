@@ -1,7 +1,7 @@
 <?xml version='1.0' encoding='UTF-8'?>
 <addons>
 <addon id="plugin.video.leviticus" 
-	version="1.2.15" 
+	version="1.2.16" 
 	name="[COLOR khaki]LEVITICUS[/COLOR]" 
 	provider-name="[COLOR khaki]LEVITICUS[/COLOR]">
 	<requires>
@@ -9,11 +9,13 @@
 		<import addon="script.module.leviticus" />
 		<import addon="repository.chibo" version="1.0.0" />
 		<import addon="repository.exodusredux" version="0.0.7" />
+		<import addon="repository.jsergio" />
+		<import addon="repository.openscrapers" />
 		<import addon="script.leviticus.artwork" version="1.0.0" />
 		<import addon="script.leviticus.metadata" version="1.0.0" />
-		<import addon="script.module.urlresolver" version="3.0.0" />
+		<import addon="script.module.resolveurl" version="5.0.0" />
 		<import addon="script.module.requests" />
-		<import addon="script.module.lambdascrapers" />
+		<import addon="script.module.openscrapers" />
 		<import addon="script.module.metahandler" version="1.0.0" />
 	</requires>
 	<extension point="xbmc.python.pluginsource" library="leviticus.py">
@@ -272,5 +274,32 @@ Kodi is a registered trademark of the XBMC Foundation. We are not connected to o
     <description lang="en">Free IPTV from open Internet source.</description>
     <platform>all</platform>
   </extension>
+</addon>
+<addon id="repository.jsergio" name="jsergio repo" version="1.0.4" provider-name="jsergio">
+	<extension point="xbmc.addon.repository" name="jsergio repo">
+        <info compressed="false">https://raw.githubusercontent.com/jsergio123/zips/master/addons.xml</info>
+        <checksum>https://raw.githubusercontent.com/jsergio123/zips/master/addons.xml.md5</checksum>
+        <datadir zip="true">https://raw.githubusercontent.com/jsergio123/zips/master/</datadir>
+	</extension>
+	<extension point="xbmc.addon.metadata">
+		<summary>Repo for jsergio Add-ons</summary>
+		<description>Repo for jsergio Add-ons</description>
+		<platform>all</platform>
+	</extension>
+</addon>
+<addon id="repository.openscrapers" name="OpenScrapers Repository" version="1.0" provider-name="A4K">
+	<extension point="xbmc.addon.repository" name="OpenScrapers Repository">
+		<dir>
+            <info compressed="false">https://raw.githubusercontent.com/a4k-openproject/repository.openscrapers/master/zips/addons.xml</info>
+            <checksum>https://raw.githubusercontent.com/a4k-openproject/repository.openscrapers/master/zips/addons.xml.md5</checksum>
+            <datadir zip="true">https://raw.githubusercontent.com/a4k-openproject/repository.openscrapers/master/zips/</datadir>
+        </dir>
+	</extension>
+	<extension point="xbmc.addon.metadata">
+		<summary>OpenScrapers Repository</summary>
+		<description>The official repo for OpenScrapers!.</description>
+		<disclaimer></disclaimer>
+		<platform>all</platform>
+	</extension>
 </addon>
 </addons>
