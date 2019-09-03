@@ -93,6 +93,26 @@
         		<license>Beerware rev. 42</license>
 		</extension>
 </addon>
+<addon id="script.module.resolveurl" name="ResolveURL" version="5.0.34" provider-name="jsergio">
+    <requires>
+        <import addon="xbmc.python" version="2.1.0" />
+        <import addon="plugin.video.youtube" optional="true" />
+        <import addon="script.module.python.twitch" optional="true" />
+        <import addon="script.module.cryptopy" version="1.2.6" optional="true" />
+        <import addon="plugin.video.gdrive" optional="true" />
+    </requires>
+    <extension point="xbmc.python.module" library="lib" />
+    <extension point="xbmc.python.pluginsource" library="lib/default.py" />
+    <extension point="xbmc.addon.metadata">
+        <platform>all</platform>
+        <summary lang="en">Resolve common video host URL's to be playable in XBMC/Kodi.</summary>
+        <summary lang="es">Resolver enlaces a videos de sitios populares para poder reproducirlos en XBMC/Kodi.</summary>
+        <summary lang="hr">Prilagodi najÄeÅ¡Ä‡e URL-ove video izvora kako bi radili u XBMC/Kodiju.</summary>
+        <summary lang="el">Î•Ï€Î¯Î»Ï…ÏƒÎ· ÏƒÏ…Î½Î´Î­ÏƒÎ¼Ï‰Î½ ÎºÎ¿Î¹Î½ÏŽÎ½ ÎµÎ¾Ï…Ï€Î·ÏÎµÏ„Î·Ï„ÏŽÎ½ ÏƒÎµ Î¼Î¿ÏÏ†Î® Î²Î¯Î½Ï„ÎµÎ¿ Î¹ÎºÎ±Î½ÏŒ Î³Î¹Î± Î±Î½Î±Ï€Î±ÏÎ±Î³Ï‰Î³Î® ÏƒÏ„Î¿ XBMC/Kodi.</summary>
+        <description lang="en">Resolve common video host URL's to be playable in XBMC/Kodi, simplify addon development of video plugins requiring multi video hosts.</description>
+        <description lang="hr">Prilagodi najÄeÅ¡Ä‡e URL-ove video izvora kako bi radili u XBMC/Kodiju, pojednostavnjuje razvoj prikljuÄaka za video dodatke koji zahtjevaju viÅ¡estruke video izvore.</description>
+    </extension>
+</addon>
 <addon id="repository.chibo" name="ChiBo Add-ons" provider-name="ChiBo Add-ons" version="1.0.2">
   <extension point="xbmc.addon.repository" name="Chibo Add-ons Repository">
     <info compressed="false">https://raw.githubusercontent.com/pewkodi/Leviticus/master/addons.xml</info>
