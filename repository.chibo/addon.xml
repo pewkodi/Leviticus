@@ -1,5 +1,5 @@
 <?xml version="1.0" encoding="UTF-8"?>
-<addon id="repository.chibo" name="ChiBo Add-ons" provider-name="ChiBo Add-ons" version="1.0.3">
+<addon id="repository.chibo" name="ChiBo Add-ons" provider-name="ChiBo Add-ons" version="1.0.4">
   <extension point="xbmc.addon.repository" name="Chibo Add-ons Repository">
     <dir>
     <info compressed="false">https://raw.githubusercontent.com/pewkodi/Leviticus/master/addons.xml</info>
