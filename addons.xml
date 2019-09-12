@@ -1,7 +1,7 @@
 <?xml version='1.0' encoding='UTF-8'?>
 <addons>
 <addon id="plugin.video.leviticus" 
-	version="1.2.17" 
+	version="1.2.18" 
 	name="[COLOR khaki]LEVITICUS[/COLOR]" 
 	provider-name="[COLOR khaki]LEVITICUS[/COLOR]">
 	<requires>
@@ -63,7 +63,7 @@
 		<platform>all</platform>
 	</extension>
 </addon>
-<addon id="script.module.leviticus" name="Leviticus Module" version="1.0.17" provider-name="Leviticus">
+<addon id="script.module.leviticus" name="Leviticus Module" version="1.0.18" provider-name="Leviticus">
 	<requires>
 		<import addon="xbmc.python" version="2.1.0" />
 	</requires>
