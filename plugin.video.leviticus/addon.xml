@@ -1,6 +1,6 @@
 <?xml version="1.0" encoding="UTF-8" standalone="yes"?>
 <addon id="plugin.video.leviticus" 
-	version="1.2.21" 
+	version="1.2.22" 
 	name="[COLOR khaki]LEVITICUS[/COLOR]" 
 	provider-name="[COLOR khaki]LEVITICUS[/COLOR]">
 	<requires>
@@ -8,7 +8,7 @@
 		<import addon="script.module.leviticus" />
 		<import addon="repository.chibo" version="1.0.0" />
 		<import addon="repository.exodusredux" version="0.0.7" />
-		<import addon="script.leviticus.artwork" version="1.0.0" />
+		<import addon="script.leviticus.artwork" version="1.0.1" />
 		<import addon="script.leviticus.metadata" version="1.0.0" />
 		<import addon="script.module.resolveurl" version="5.0.0" />
 		<import addon="script.module.requests" />
@@ -30,7 +30,7 @@
 		<disclaimer lang="en">The author of this addon do not host any of the content which is found and have no affiliation with any of the content providers. This addon simply searches websites for content. Use at your own risk!</disclaimer>
 		<assets>
 			<news>Covenant is now rebranded by LEVITICUS.[CR]Will continue to work on this! I am a Noob dev, who wants to cooperate with other devs to preserve KODI add-ons.[CR]Looking for a home? We can help u out. Contact us!</news>
-			<email>admin@nexgen.life</email>
+			<email>pewkodi@github.io</email>
 			<icon>icon.png</icon>
 			<fanart>fanart.jpg</fanart>
     			<screenshot>resources/screenshots/screenshot-01.jpg</screenshot>

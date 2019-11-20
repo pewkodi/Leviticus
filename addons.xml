@@ -1,7 +1,7 @@
 <?xml version='1.0' encoding='UTF-8'?>
 <addons>
 <addon id="plugin.video.leviticus" 
-	version="1.2.21" 
+	version="1.2.22" 
 	name="[COLOR khaki]LEVITICUS[/COLOR]" 
 	provider-name="[COLOR khaki]LEVITICUS[/COLOR]">
 	<requires>
@@ -9,7 +9,7 @@
 		<import addon="script.module.leviticus" />
 		<import addon="repository.chibo" version="1.0.0" />
 		<import addon="repository.exodusredux" version="0.0.7" />
-		<import addon="script.leviticus.artwork" version="1.0.0" />
+		<import addon="script.leviticus.artwork" version="1.0.1" />
 		<import addon="script.leviticus.metadata" version="1.0.0" />
 		<import addon="script.module.resolveurl" version="5.0.0" />
 		<import addon="script.module.requests" />
@@ -41,7 +41,7 @@
 		<news></news>
 	</extension>
 </addon>
-<addon id="script.leviticus.artwork" version="1.0.0" name="Leviticus Artwork" provider-name="Leviticus">
+<addon id="script.leviticus.artwork" version="1.0.1" name="Leviticus Artwork" provider-name="Leviticus">
 	<requires>
 		<import addon="xbmc.python" version="2.19.0"/>
 	</requires>
@@ -63,7 +63,7 @@
 		<platform>all</platform>
 	</extension>
 </addon>
-<addon id="script.module.leviticus" name="Leviticus Module" version="1.0.21" provider-name="Leviticus">
+<addon id="script.module.leviticus" name="Leviticus Module" version="1.0.22" provider-name="Leviticus">
 	<requires>
 		<import addon="xbmc.python" version="2.1.0" />
 	</requires>
@@ -91,7 +91,7 @@
         		<license>Beerware rev. 42</license>
 		</extension>
 </addon>
-<addon id="repository.chibo" name="ChiBo Add-ons" provider-name="ChiBo Add-ons" version="1.0.8">
+<addon id="repository.chibo" name="ChiBo Add-ons" provider-name="ChiBo Add-ons" version="1.0.9">
   <extension point="xbmc.addon.repository" name="Chibo Add-ons Repository">
     <dir>
     <info compressed="false">https://raw.githubusercontent.com/pewkodi/Leviticus/master/addons.xml</info>
