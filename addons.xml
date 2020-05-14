@@ -1,7 +1,7 @@
 <?xml version='1.0' encoding='UTF-8'?>
 <addons>
 <addon id="plugin.video.leviticus" 
-	version="1.2.25" 
+	version="1.2.26" 
 	name="[COLOR khaki]LEVITICUS[/COLOR]" 
 	provider-name="[COLOR khaki]LEVITICUS[/COLOR]">
 	<requires>
@@ -15,6 +15,7 @@
 		<import addon="script.module.requests" />
 		<import addon="script.module.openscrapers" />
 		<import addon="script.module.metahandler" version="1.0.0" />
+		<import addon="plugin.video.themoviedb.helper" />
 	</requires>
 	<extension point="xbmc.python.pluginsource" library="leviticus.py">
 		<provides>video</provides>
@@ -63,14 +64,14 @@
 		<platform>all</platform>
 	</extension>
 </addon>
-<addon id="script.module.leviticus" name="Leviticus Module" version="1.0.25" provider-name="Leviticus">
+<addon id="script.module.leviticus" name="Leviticus Module" version="1.0.26" provider-name="Leviticus">
 	<requires>
 		<import addon="xbmc.python" version="2.1.0" />
 	</requires>
 	<extension point="xbmc.python.module" library="lib" />
 	<extension point="xbmc.addon.metadata">
 		<platform>all</platform>
-		<summary lang="en">Leviticus, Modded to Allow Metalliq Playback</summary>
+		<summary lang="en">Leviticus, Modded to Allow MovieDB Helper Playback</summary>
 	</extension>
 </addon>
 <addon id="script.module.lambdascrapers" name="Lambdascrapers Module" version="1.6.1" provider-name="I-A-C">

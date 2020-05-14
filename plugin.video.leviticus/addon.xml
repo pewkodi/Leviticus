@@ -1,6 +1,6 @@
 <?xml version="1.0" encoding="UTF-8" standalone="yes"?>
 <addon id="plugin.video.leviticus" 
-	version="1.2.25" 
+	version="1.2.26" 
 	name="[COLOR khaki]LEVITICUS[/COLOR]" 
 	provider-name="[COLOR khaki]LEVITICUS[/COLOR]">
 	<requires>
@@ -14,6 +14,7 @@
 		<import addon="script.module.requests" />
 		<import addon="script.module.openscrapers" />
 		<import addon="script.module.metahandler" version="1.0.0" />
+		<import addon="plugin.video.themoviedb.helper" />
 	</requires>
 	<extension point="xbmc.python.pluginsource" library="leviticus.py">
 		<provides>video</provides>
@@ -29,7 +30,7 @@
 		<source></source>
 		<disclaimer lang="en">The author of this addon do not host any of the content which is found and have no affiliation with any of the content providers. This addon simply searches websites for content. Use at your own risk!</disclaimer>
 		<assets>
-			<news>Covenant is now rebranded by LEVITICUS.[CR]Will continue to work on this! I am a Noob dev, who wants to cooperate with other devs to preserve KODI add-ons.[CR]Looking for a home? We can help u out. Contact us!</news>
+			<news>Covenant is now rebranded by LEVITICUS.[CR]Will continue to work on this! I am a dev, who wants to cooperate with other devs to preserve KODI add-ons.[CR]Looking for a home? We can help u out. Contact us!</news>
 			<email>pewkodi@github.io</email>
 			<icon>icon.png</icon>
 			<fanart>fanart.jpg</fanart>
